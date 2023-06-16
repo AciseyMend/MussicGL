@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+
+<div class="menu">
+    <ul class="menu__list">
+      <li class="menu__item"><a href="#" class="menu__link">Inicio</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Explorar</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Favoritos</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Configuración</a></li>
+    </ul>
+  </div>
+  
+  <div class="config">
+    <h2 class="config__title">Configuración</h2>
+    <div class="config__option">
+      <label for="volume-range" class="config__label">Volumen:</label>
+      <input id="volume-range" type="range" class="config__range" min="0" max="100" step="1">
+    </div>
+    <div class="config__option">
+      <label for="theme-select" class="config__label">Tema:</label>
+      <select id="theme-select" class="config__select">
+        <option value="light">Claro</option>
+        <option value="dark">Oscuro</option>
+        <option value="custom">Personalizado</option>
+      </select>
+    </div>
+    <div class="config__option">
+        <label for="idiom-select" class="config__label">Idioma:</label>
+        <select id="idiom-select" class="config__select">
+          <option>Español</option>
+          <option>Inglés</option>
+          <option>Francés</option>
+        </select>
+      </div>
+    <button class="config__button">Guardar configuración</button>
+  </div>
+  <nav class="sidebar">
+    <input type="checkbox" id="sidebar-toggle" class="sidebar__toggle">
+    <label for="sidebar-toggle" class="sidebar__button">
+      <span class="sidebar__icon"></span>
+    </label>
+    <ul class="sidebar__menu">
+      <li class="sidebar__item"><a href="#general" class="sidebar__link">General</a></li>
+      <li class="sidebar__item"><a href="#perfil" class="sidebar__link">Perfil</a></li>
+      <li class="sidebar__item"><a href="#registro" class="sidebar__link">Registro</a></li>
+      <li class="sidebar__item"><a href="#privacidad" class="sidebar__link">Privacidad</a></li>
+    </ul>
+  </nav>
+</body>
