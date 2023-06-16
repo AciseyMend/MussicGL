@@ -70,72 +70,20 @@ nav > a:hover{
     padding: 20px;
     background-color: aliceblue;
  }
-section{
-    padding: 30px;
-}
 
-.Descripcion{
-    display: inline-block;
-    width: 30%;
-    text-align: left;
-}
-.imag__Descrip{
-    width: 250px;
-    height: 200px;
-    margin-left: 80px;
-}
-.Contenido{
-    display: inline-block;
-    width: 60%;
-    margin-bottom: 30px;
-    vertical-align: text-bottom;
-    text-align: left;
-}
-.Des__cont{
-    text-align: justify;
-}
 
-.Tit__cont{
-margin: 10px 15px;
-}
-
-.ima__Descrip{
-    width: 250px;
-    height: 300px;
-    margin-left: 80px;
-}
-.imag__Descrip_final{
-    width: 250px;
-    height: 200px;
-    vertical-align: text-bottom;
-    text-align: left;
-}
-.Contenido_final{
-    display: inline-block;
-    width: 60%;
-    text-align: left;
-    margin-left: 80px;
-}
-.Tit__cont_caracterist{
-    margin: 20px;
-    text-align: center;
-}
-.Descripcion_tabla{
-    margin-left: auto;
-    margin-right: auto;    
-}
-td, th{
-   padding: 20px;
-    text-align: left;
-}
-.pie_pagina{
-    background-color: #22222D;   
- color: white;
-}
-.Iconos__info{
-    margin-left: auto;
-    margin-right: auto;    
-}
-.Des__pag{
-    text-align: center;
-}
+ td, th{
+    padding: 20px;
+     text-align: left;
+ }
+ .pie_pagina{
+     background-color: #22222D;   
+  color: white;
+ }
+ .Iconos__info{
+     margin-left: auto;
+     margin-right: auto;    
+ }
+ .Des__pag{
+     text-align: center;
+ }
