@@ -8,12 +8,13 @@ function guardar_datos (event){
     const $volumen = document.querySelector ("#volumen").value
     const $tema = document.querySelector ("#tema").value
     const $idioma = document.querySelector ("#idioma").value
-
+console.log("Volumen: ", $volumen)
+console.log("Tema: ", $tema)
+console.log("Idioma:", $idioma)
+alert("Se han guardado los cambios")
 }
 
-console.log($volumen)
-console.log($tema)
-console.log($idioma)
+
 $volumen.onsubmit = guardar_datos
 $tema.onsubmit = guardar_datos
 $idioma.onsubmit = guardar_datos
