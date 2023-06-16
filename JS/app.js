@@ -1,20 +1,23 @@
 console.log("funcion")
 console.log(document)
 console.log(document.body)
-console.log(document.querySelector("a").getAttribute(href))
 console.log(document.getElementsByClassName("title"))
+
+const $config__option = document.getElementsByClassName("config__option")
+const $config__button = document.getElementsByClassName("config__button")
+$config__button.onclick = Text
+
+
 function guardar_datos (event){
     event.preventDefault()
-    const $volumen = document.querySelector ("#volumen").value
-    const $tema = document.querySelector ("#tema").value
-    const $idioma = document.querySelector ("#idioma").value
-console.log("Volumen: ", $volumen)
-console.log("Tema: ", $tema)
-console.log("Idioma:", $idioma)
+    const $config__button = document.querySelector ("#config__button").value
+    
+console.log("Guardar configuración", $config__button)
+
 alert("Se han guardado los cambios")
 }
 
 
-$volumen.onsubmit = guardar_datos
-$tema.onsubmit = guardar_datos
-$idioma.onsubmit = guardar_datos
+$config__option.onsubmit = guardar_datos
+$config__button.onsubmit = guardar_datos
+
