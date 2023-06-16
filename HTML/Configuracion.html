@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport", initial-scale= "1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="../CSS/estilo_index.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body> 
+
+<script src="../JS/app.js"></script>
+
+<div class="menu">
+    <ul class="menu__list">
+      <li class="menu__item"><a href="#" class="menu__link">Inicio</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Explorar</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Favoritos</a></li>
+      <li class="menu__item"><a href="#" class="menu__link">Configuración</a></li>
+    </ul>
+  </div>
+  
+  <div class="config">
+    <h2 class="config__title">Configuración</h2>
+    <div class="config__option" id="Volumen">
+      <label for="volume-range" class="config__label">Volumen:</label>
+      <input id="volume-range" type="range" class="config__range" min="0" max="100" step="1">
+    </div>
+
+    <div class="config__option" id="tema">
+      <label for="theme-select" class="config__label">Tema:</label>
+      <select id="theme-select" class="config__select">
+        <option value="light">Claro</option>
+        <option value="dark">Oscuro</option>
+        <option value="custom">Personalizado</option>
+      </select>
+    </div>
+
+    <div class="config__option" id="idioma">
+        <label for="idiom-select" class="config__label">Idioma:</label>
+        <select id="idiom-select" class="config__select">
+
+          <option>Español</option>
+          <option>Inglés</option>
+          <option>Francés</option>
+
+        </select>
+      </div>
+
+      <div class="horizontal">
+        <label for="music_equality" class="config__label">Calidad alta de la música</label>
+
+        <label class="config__label"><input type="radio" name="Calidad de la música" value="On"> On</label><br>
+    
+        <label class="config__label"><input type="radio" name="Calidad de la música" value="Off"> Off</label><br>
+    
+      </div>
+      <div class="horizontal">
+        <label for="ecualizar" class="config__label">Ecualizar</label>
+
+        <label class="config__label"><input type="radio" name="Calidad de la música" value="On"> On</label><br>
+    
+        <label class="config__label"><input type="radio" name="Calidad de la música" value="Off"> Off</label><br>
+    
+      </div>
+
+
+  <button class="config__button" id="guardarConfiguracion">Guardar configuración</button>
+ 
+  <p id="mensaje" style="display: none; color: rgb(28, 135, 154);"></p>
+
+
+  </div>
+  <nav class="sidebar">
+    <input type="checkbox" id="sidebar-toggle" class="sidebar__toggle">
+    <label for="sidebar-toggle" class="sidebar__button">
+      <span class="sidebar__icon"></span>
+    </label>
+    <ul class="sidebar__menu">
+      <li class="sidebar__item"><a href="#general" class="sidebar__link">General</a></li>
+      <li class="sidebar__item"><a href="#perfil" class="sidebar__link">Perfil</a></li>
+      <li class="sidebar__item"><a href="#registro" class="sidebar__link">Registro</a></li>
+      <li class="sidebar__item"><a href="#privacidad" class="sidebar__link">Privacidad</a></li>
+    </ul>
+  </nav>
+
+  <footer class="footer">
+    <div> 
+      <h3 class="titulo"></h3>Mussic GL Email </h3>
+  
+      <h4>MussicGl@gmail.com</h4>
+   
+  <ul>
+
+    <li><a href="/Home">Home</a></li>
+
+    <li><a href="/biblioteca">Biblioteca</a></li>
+
+    <li><a href="/Perfil">Perfil</a></li>
+
+  </ul>
+
+</div>
+</footer>
+
+</body>

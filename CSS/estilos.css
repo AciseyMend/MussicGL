@@ -1,0 +1,213 @@
+.menu {
+    background-color: #ac3cb8;
+    padding-left: 100px
+  }
+  .div {
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  .menu__list {
+    list-style: none;
+    padding: 0;
+    padding-top: 10px; 
+    padding-right: 5px; 
+    padding-bottom: 15px; 
+    padding-left: 100px; 
+    margin: 0;
+  }
+  
+  .menu__item {
+    display: inline-block;
+    margin-left: 35px;
+  }
+  
+  .menu__link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .config {
+    padding: 0;
+    padding-top: 30px;
+    justify-content: space-between;
+    background-color: #515183;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 230px;
+    margin-top: 0px;
+    height: 500px;
+  }
+ 
+  
+  .config__title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .config__option {
+    margin-bottom: 15px;
+   
+  }
+  
+  .config__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+   
+  }
+  
+  .config__range {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 4px;
+    height: 6px;
+    outline: none;
+  }
+  
+  .config__select {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .config__button {
+    display: flex;
+    background-color: #7d5183;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+  }
+  
+  .config__button:hover {
+    background-color: #3E51FF;
+  }
+  
+  .config__button:active {
+    background-color: #7d5183;
+  }
+  
+  .config__button:focus {
+    outline: none;
+  }
+  
+  .config__button:disabled {
+    background-color: #ccc;
+}
+.sidebar {
+    background-color: #670972;
+    width: 200px;
+    height: 150vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: transform 0.3s ease;
+    z-index: 9999;
+    overflow-y: auto;
+  }
+  
+  .sidebar__toggle {
+    display: none;
+  }
+  
+  .sidebar__button {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .sidebar__icon {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar__icon:before,
+  .sidebar__icon:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar__icon:before {
+    top: -8px;
+  }
+  
+  .sidebar__icon:after {
+    top: 8px;
+  }
+  
+  .sidebar__menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .sidebar__item {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar__link {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .sidebar__link:hover {
+    opacity: 0.8;
+  }
+  
+  .content-section {
+    margin-left: 250px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  nav {
+    display: flex;
+   
+  }
+  footer {
+    display: flex;
+    background-color: #6a76dc;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+}
+.footer li {
+  display: inline;
+  margin: 15px; 
+}
+.horizontal{
+  display: flex;
+  margin-right: 20px;
+  justify-items: 30px;
+  
+}
+.config__label{
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-items: 50px;
+
+}
