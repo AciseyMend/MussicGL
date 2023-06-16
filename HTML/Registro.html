@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../CSS/estilo_Registro.css">
+</head>
+<body>
+    <main>
+       <section>
+        <article>
+            <img class="Logo" src="../Imagenes/Logo.png" alt="Logotipo">
+            <h2>REGISTRO</h2>
+        </article>
+        <article>
+            <form action="" method="post" class="Informacion"><br>
+                <fieldset>
+                    <legend class="texto">Usuario</legend>
+                    <label for="nombre">Nombre <br>
+                    <input type="text" id="nombre">
+                    </label><br>
+                    <label for="apelliado">Apellido <br>
+                        <input type="text" id="apelliado">
+                        </label><br>
+                </fieldset>
+            </form><br>
+        </article>
+        <article>
+            <form action="" method="post" class="Informacion"><br>
+                <fieldset>
+                    <legend class="texto">Datos</legend>
+                    <label for="edad">Fecha de nacimiento
+                        <input type="date" name="edad">
+                    </label>
+
+                    <label for="correo">Correo electronico <br>
+                    <input type="email" id="correo">
+                    </label><br>
+                    <label for="contraseña">
+                        Contraseña <br>
+                    <input type="password" name="contraseña" min="16">
+                    </label><br>
+                    <label for="observacion">
+                        Comentanos tus observaciones
+                        <textarea name="observacion" cols="30" rows="2" placeholder="Ingresa tus comentarios"></textarea>
+                    </label>
+                </fieldset>
+            </form>
+           <p>Continuar con mi cuenta de facebook o Google</p>
+           <table class="Iconos__info">
+            <tr>
+                <td><a href="https://www.facebook.com/"><img src="../Imagenes/facebook.png" alt="Icono_Facebook"></a></td>
+                <td><a href="https://mail.google.com/mail/u/0/#inbox"><img src="../Imagenes/google.png" alt="Icono_Google"></a></td>
+            </tr>
+           </table>
+           <br><p>
+           <input type="radio" name="respuesta" required> Acepto los terminos y condiciones</p><br>
+            <button type="submit" title="Enviar"> ACCEPT </button>
+            <br>
+        </article>
+       </section> 
+    </main>
+</body>
+</html>

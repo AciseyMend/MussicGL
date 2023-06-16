@@ -1,0 +1,79 @@
+:root{
+    --color-neutro:#22222D;
+    --color-primary:#515183;
+    --color-neutro2:#FFFFFF;
+}
+@font-face {
+    font-family:'Poppins';
+    src: url( '../Tipografia/Poppins-Medium.ttf' );
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+body{
+    background-color: rgb(208,208,208,60%);
+}
+section{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: var(--color-neutro);
+    color: var(--color-neutro2);
+}
+.Logo{
+    width: 20%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+.Informacion{
+    padding: 20px 50px ;
+    text-align: center;
+    font-size: medium;
+}
+.Informacion input{
+    width: 90%;
+    height: 30px;
+}
+
+.Fromulario__Rec-Reg label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset{
+    padding: 20px 40px ;
+    text-align: center;
+    font-size: medium;
+    font-style: initial;
+}
+
+button{
+    padding: 0.5em 1em;
+    background: linear-gradient(180deg, rgba(103, 9, 114, 0.7) 0%, rgba(81, 81, 131, 0.546) 72.92%);
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+button:hover{
+    box-shadow: -5px 5px 5px var(--color-primary);
+}
+.Fromulario__Rec-Reg{
+    margin-bottom: 20 px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.Iconos__info{
+    margin-left: auto;
+    margin-right: auto;   
+}
