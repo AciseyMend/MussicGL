@@ -29,7 +29,7 @@
   
   .config {
     padding: 0;
-    padding-top: 30px
+    padding-top: 30px;
     justify-content: space-between;
     background-color: #515183;
     border-radius: 10px;
@@ -76,7 +76,7 @@
   }
   
   .config__button {
-    display: block;
+    display: flex;
     background-color: #7d5183;
     color: white;
     border: none;
@@ -84,7 +84,7 @@
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   .config__button:hover {
